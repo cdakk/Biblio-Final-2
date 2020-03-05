@@ -1,4 +1,4 @@
-package bibliotheque;
+package biblio.domain;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

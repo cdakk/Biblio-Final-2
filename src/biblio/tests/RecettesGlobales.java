@@ -1,8 +1,16 @@
-package bibliotheque;
+package biblio.tests;
 
 import java.time.LocalDate;
 
-public class Recettes {
+import biblio.dao.ExemplaireDao;
+import biblio.dao.UtilisateurDao;
+import biblio.domain.EmpruntArchive;
+import biblio.domain.EmpruntEnCours;
+import biblio.domain.EnumStatutExemplaire;
+import biblio.domain.Exemplaire;
+import biblio.domain.Utilisateur;
+
+public class RecettesGlobales {
 	
 	public static void valideEmprunt(EmpruntEnCours ep) {
 		Utilisateur u = ep.getEmprunteur();

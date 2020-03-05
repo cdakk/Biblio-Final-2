@@ -1,4 +1,4 @@
-package bibliotheque;
+package biblio.domain;
 
 public enum EnumCategorieEmploye {
 	BIBLIOTHECAIRE,

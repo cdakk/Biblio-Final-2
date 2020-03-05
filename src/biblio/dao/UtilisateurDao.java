@@ -1,6 +1,11 @@
-package bibliotheque;
+package biblio.dao;
 
 import java.time.LocalDate;
+
+import biblio.domain.Adherent;
+import biblio.domain.Employe;
+import biblio.domain.EnumCategorieEmploye;
+import biblio.domain.Utilisateur;
 
 public class UtilisateurDao {
 	

@@ -1,4 +1,4 @@
-package bibliotheque;
+package biblio.exception;
 
 public class BiblioException extends Exception
 {

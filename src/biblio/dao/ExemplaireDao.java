@@ -1,6 +1,9 @@
-package bibliotheque;
+package biblio.dao;
 
 import java.time.LocalDate;
+
+import biblio.domain.EnumStatutExemplaire;
+import biblio.domain.Exemplaire;
 
 public class ExemplaireDao {
 	

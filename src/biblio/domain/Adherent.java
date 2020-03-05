@@ -1,6 +1,8 @@
-package bibliotheque;
+package biblio.domain;
 
 import java.time.LocalDate;
+
+import biblio.exception.BiblioException;
 
 public class Adherent extends Utilisateur {
 	
